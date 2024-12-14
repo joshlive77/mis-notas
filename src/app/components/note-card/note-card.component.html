@@ -1,14 +1,5 @@
 <div class="p-3" [ngStyle]="{'width': cardWidth}">
-  <div class="card bg-accent text-accent-content" [ngStyle]="{'height': cardHeight}">
-    <!-- <div class="card-body items-center text-center">
-      <h2 class="card-title">{{note.title}}</h2>
-      <p>{{note.content}}</p>
-      <p>{{note.date}}</p>
-      <div class="card-actions justify-end">
-        <button class="btn btn-primary">Accept</button>
-        <button class="btn btn-ghost">Deny</button>
-      </div>
-    </div> -->
+  <div class="card bg-base-content text-accent" [ngStyle]="{'height': cardHeight}">
     <div class="card-body">
       <h2 class="card-title text-xl">{{note.title}}</h2>
       <p>{{note.date | date}}</p>
